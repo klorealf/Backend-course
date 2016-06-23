@@ -12,4 +12,11 @@
 
 class Artist < ActiveRecord::Base
   has_many :songs
+
+  validates_presence_of :name, :description, :image_url
+  validates :name, uniqueness: { case_sensitive: false }
+  validates :description, length: { maximum: 250 }
+
+  scope :pop, -> { where(genre: "pop") }
+  scope :genre, -> (genre) { where(genre: genre) }
 end
