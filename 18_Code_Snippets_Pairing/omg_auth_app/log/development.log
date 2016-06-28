@@ -1,0 +1,999 @@
+Started GET "/" for ::1 at 2016-06-22 20:12:35 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Started GET "/" for ::1 at 2016-06-22 20:12:36 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.4ms)
+Completed 200 OK in 4923ms (Views: 4913.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_main_nav.html.erb (0.6ms)
+Completed 200 OK in 4298ms (Views: 4284.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-22 20:12:40 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-22 20:12:40 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-22 20:12:40 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-22 20:12:40 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-22 20:12:40 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-22 20:12:40 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-22 20:12:40 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-22 20:12:40 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-22 20:12:40 -0700
+Started GET "/" for ::1 at 2016-06-22 20:13:09 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.2ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-22 20:15:17 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_main_nav.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-22 20:16:16 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-22 20:18:09 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_main_nav.html.erb (0.6ms)
+Completed 200 OK in 34ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-22 20:18:28 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.5ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-25 10:36:08 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_main_nav.html.erb (0.7ms)
+Completed 200 OK in 290ms (Views: 280.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 10:36:09 -0700
+Started GET "/" for ::1 at 2016-06-25 10:36:57 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_main_nav.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-25 10:37:07 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.6ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-25 10:38:27 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.6ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-25 10:38:38 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.9ms)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-25 10:40:49 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_main_nav.html.erb (0.7ms)
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-25 10:40:50 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-25 10:40:51 -0700
+Started GET "/auth/twitter/callback?oauth_token=yqMd7gAAAAAAvw2WAAABVYimVUw&oauth_verifier=UfD3wf4okVYkZfy0rDdzJHpGUL6AwZNr" for ::1 at 2016-06-25 10:40:57 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"yqMd7gAAAAAAvw2WAAABVYimVUw", "oauth_verifier"=>"UfD3wf4okVYkZfy0rDdzJHpGUL6AwZNr", "provider"=>"twitter"}
+DEPRECATION WARNING: `render :text` is deprecated because it does not actually render a `text/plain` response. Switch to `render plain: 'plain text'` to render as `text/plain`, `render html: '<strong>HTML</strong>'` to render as `text/html`, or `render body: 'raw'` to match the deprecated behavior and render with the default Content-Type, which is `text/plain`. (called from create at /Users/kisha/my_projects/ga/bewd_sf_13/17_Authentication_Fundamentals/omg_auth_app/app/controllers/sessions_controller.rb:3)
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 18ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=yqMd7gAAAAAAvw2WAAABVYimVUw&oauth_verifier=UfD3wf4okVYkZfy0rDdzJHpGUL6AwZNr" for ::1 at 2016-06-25 10:41:31 -0700
+
+OAuth::Unauthorized - 401 Authorization Required:
+  oauth (0.5.1) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.5.1) lib/oauth/tokens/request_token.rb:20:in `get_access_token'
+  omniauth-oauth (1.1.0) lib/omniauth/strategies/oauth.rb:56:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (2.0.0.rc1) lib/rack/etag.rb:25:in `call'
+  rack (2.0.0.rc1) lib/rack/conditional_get.rb:25:in `call'
+  rack (2.0.0.rc1) lib/rack/head.rb:12:in `call'
+  rack (2.0.0.rc1) lib/rack/session/abstract/id.rb:222:in `context'
+  rack (2.0.0.rc1) lib/rack/session/abstract/id.rb:216:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+  activerecord (5.0.0.rc2) lib/active_record/migration.rb:552:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+  rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+  rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+  activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+  rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+  railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+Started POST "/__better_errors/558b51acc71d941b/variables" for ::1 at 2016-06-25 10:41:31 -0700
+Started GET "/" for ::1 at 2016-06-25 10:41:35 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_main_nav.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-25 10:41:36 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-25 10:41:37 -0700
+Started GET "/auth/twitter/callback?oauth_token=jYCQqAAAAAAAvw2WAAABVYinCXI&oauth_verifier=NNbsciW9hXI2D81kZ6YNtl5xVH0B74Nn" for ::1 at 2016-06-25 10:41:38 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"jYCQqAAAAAAAvw2WAAABVYinCXI", "oauth_verifier"=>"NNbsciW9hXI2D81kZ6YNtl5xVH0B74Nn", "provider"=>"twitter"}
+DEPRECATION WARNING: `render :text` is deprecated because it does not actually render a `text/plain` response. Switch to `render plain: 'plain text'` to render as `text/plain`, `render html: '<strong>HTML</strong>'` to render as `text/html`, or `render body: 'raw'` to match the deprecated behavior and render with the default Content-Type, which is `text/plain`. (called from create at /Users/kisha/my_projects/ga/bewd_sf_13/17_Authentication_Fundamentals/omg_auth_app/app/controllers/sessions_controller.rb:3)
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-25 14:01:05 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-25 14:01:15 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_main_nav.html.erb (1.2ms)
+Completed 200 OK in 258ms (Views: 249.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-25 14:01:21 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_main_nav.html.erb (0.5ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-25 14:01:40 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.6ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 18:05:58 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_main_nav.html.erb (0.9ms)
+Completed 200 OK in 294ms (Views: 283.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:06:03 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:06:04 -0700
+Started GET "/auth/twitter/callback?oauth_token=-XGZygAAAAAAvw2WAAABVZSKrek&oauth_verifier=lbs7rAL5UC31F9FGbFVbqXxxRlPBolDz" for ::1 at 2016-06-27 18:06:09 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"-XGZygAAAAAAvw2WAAABVZSKrek", "oauth_verifier"=>"lbs7rAL5UC31F9FGbFVbqXxxRlPBolDz", "provider"=>"twitter"}
+DEPRECATION WARNING: `render :text` is deprecated because it does not actually render a `text/plain` response. Switch to `render plain: 'plain text'` to render as `text/plain`, `render html: '<strong>HTML</strong>'` to render as `text/html`, or `render body: 'raw'` to match the deprecated behavior and render with the default Content-Type, which is `text/plain`. (called from create at /Users/kisha/my_projects/ga/bewd_sf_13/17_Authentication_Fundamentals/omg_auth_app/app/controllers/sessions_controller.rb:3)
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=-XGZygAAAAAAvw2WAAABVZSKrek&oauth_verifier=lbs7rAL5UC31F9FGbFVbqXxxRlPBolDz" for ::1 at 2016-06-27 18:06:21 -0700
+
+OAuth::Unauthorized - 401 Authorization Required:
+  oauth (0.5.1) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.5.1) lib/oauth/tokens/request_token.rb:20:in `get_access_token'
+  omniauth-oauth (1.1.0) lib/omniauth/strategies/oauth.rb:56:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (2.0.0.rc1) lib/rack/etag.rb:25:in `call'
+  rack (2.0.0.rc1) lib/rack/conditional_get.rb:25:in `call'
+  rack (2.0.0.rc1) lib/rack/head.rb:12:in `call'
+  rack (2.0.0.rc1) lib/rack/session/abstract/id.rb:222:in `context'
+  rack (2.0.0.rc1) lib/rack/session/abstract/id.rb:216:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+  activerecord (5.0.0.rc2) lib/active_record/migration.rb:552:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+  rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+  rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+  activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+  rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+  railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+Started POST "/__better_errors/f4233d3a868ce119/variables" for ::1 at 2016-06-27 18:06:21 -0700
+Started GET "/" for ::1 at 2016-06-27 18:17:58 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_main_nav.html.erb (1.1ms)
+Completed 200 OK in 292ms (Views: 283.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 18:31:50 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.8ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:42:54 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:42:55 -0700
+Started GET "/auth/twitter/callback?oauth_token=yoeJ5wAAAAAAvw2WAAABVZSsaq4&oauth_verifier=15XLDyKeeCcVHrFZiowN2RnZUcC6VQOk" for ::1 at 2016-06-27 18:42:56 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"yoeJ5wAAAAAAvw2WAAABVZSsaq4", "oauth_verifier"=>"15XLDyKeeCcVHrFZiowN2RnZUcC6VQOk", "provider"=>"twitter"}
+DEPRECATION WARNING: `render :text` is deprecated because it does not actually render a `text/plain` response. Switch to `render plain: 'plain text'` to render as `text/plain`, `render html: '<strong>HTML</strong>'` to render as `text/html`, or `render body: 'raw'` to match the deprecated behavior and render with the default Content-Type, which is `text/plain`. (called from create at /Users/kisha/my_projects/ga/bewd_sf_13/17_Authentication_Fundamentals/omg_auth_app/app/controllers/sessions_controller.rb:3)
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 18:43:16 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_main_nav.html.erb (0.7ms)
+Completed 200 OK in 31ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:43:35 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:43:36 -0700
+Started GET "/auth/twitter/callback?oauth_token=xJ6c6QAAAAAAvw2WAAABVZStCX8&oauth_verifier=SEZpNuxqHHJ0S6t8uwdVdmX25z34u4ur" for ::1 at 2016-06-27 18:46:12 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"xJ6c6QAAAAAAvw2WAAABVZStCX8", "oauth_verifier"=>"SEZpNuxqHHJ0S6t8uwdVdmX25z34u4ur", "provider"=>"twitter"}
+DEPRECATION WARNING: `render :text` is deprecated because it does not actually render a `text/plain` response. Switch to `render plain: 'plain text'` to render as `text/plain`, `render html: '<strong>HTML</strong>'` to render as `text/html`, or `render body: 'raw'` to match the deprecated behavior and render with the default Content-Type, which is `text/plain`. (called from create at /Users/kisha/my_projects/ga/bewd_sf_13/17_Authentication_Fundamentals/omg_auth_app/app/controllers/sessions_controller.rb:3)
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE  INDEX "index_users_on_provider" ON "users" ("provider")[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE  INDEX "index_users_on_provider" ON "users" ("provider")[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE  INDEX "index_users_on_provider" ON "users" ("provider")[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE  INDEX "index_users_on_provider" ON "users" ("provider")[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "location" varchar, "image_url" varchar, "url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160628015622"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2016-06-28 02:04:03 UTC], ["updated_at", 2016-06-28 02:04:03 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? AND "users"."provider" = ? LIMIT ?[0m  [["uid", "14767982"], ["provider", "twitter"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("provider", "uid", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["provider", "twitter"], ["uid", "14767982"], ["created_at", 2016-06-28 02:17:25 UTC], ["updated_at", 2016-06-28 02:17:25 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[31mDELETE FROM "users"[0m
+Started GET "/" for ::1 at 2016-06-27 19:23:15 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 19:23:15 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_main_nav.html.erb (0.8ms)
+Completed 200 OK in 30ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-27 19:23:16 -0700
+Started GET "/" for ::1 at 2016-06-27 19:29:59 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (7.4ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:30:07 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:30:08 -0700
+Started GET "/auth/twitter/callback?oauth_token=bm_dvwAAAAAAvw2WAAABVZTXpNY&oauth_verifier=DnASAwbk7xY30s20luKEN6xEra7qUUu3" for ::1 at 2016-06-27 19:30:09 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"bm_dvwAAAAAAvw2WAAABVZTXpNY", "oauth_verifier"=>"DnASAwbk7xY30s20luKEN6xEra7qUUu3", "provider"=>"twitter"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? AND "users"."provider" = ? LIMIT ?[0m  [["uid", "14767982"], ["provider", "twitter"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("provider", "uid", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["provider", "twitter"], ["uid", "14767982"], ["created_at", 2016-06-28 02:30:10 UTC], ["updated_at", 2016-06-28 02:30:10 UTC]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "name" = ?, "location" = ?, "image_url" = ?, "url" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["name", "Kisha M Richardson"], ["location", "Brooklyn & Oakland"], ["image_url", "http://pbs.twimg.com/profile_images/494209824909840385/pVcLxiHr_normal.jpeg"], ["url", "https://twitter.com/kisharichardson"], ["updated_at", 2016-06-28 02:30:10 UTC], ["id", 2]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 19:30:10 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (2.0ms)
+Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:30:33 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:30:34 -0700
+Started GET "/auth/twitter/callback?oauth_token=yspIqwAAAAAAvw2WAAABVZTYC1k&oauth_verifier=XYFUeaNM60y2m8LSgfQTzgzfvVNFZAch" for ::1 at 2016-06-27 19:30:37 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"yspIqwAAAAAAvw2WAAABVZTYC1k", "oauth_verifier"=>"XYFUeaNM60y2m8LSgfQTzgzfvVNFZAch", "provider"=>"twitter"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? AND "users"."provider" = ? LIMIT ?[0m  [["uid", "14767982"], ["provider", "twitter"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 19:30:37 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (1.8ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-27 19:30:38 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "users"[0m
+Started GET "/" for ::1 at 2016-06-27 19:34:33 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (5.6ms)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-27 19:34:34 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:34:36 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:34:37 -0700
+Started GET "/auth/twitter/callback?oauth_token=ZnUKPgAAAAAAvw2WAAABVZTbvso&oauth_verifier=YlqOJhpcURn3m8SOoNJ29CpawqUHq3Is" for ::1 at 2016-06-27 19:34:42 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"ZnUKPgAAAAAAvw2WAAABVZTbvso", "oauth_verifier"=>"YlqOJhpcURn3m8SOoNJ29CpawqUHq3Is", "provider"=>"twitter"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? AND "users"."provider" = ? LIMIT ?[0m  [["uid", "14767982"], ["provider", "twitter"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "users" ("provider", "uid", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["provider", "twitter"], ["uid", "14767982"], ["created_at", 2016-06-28 02:34:43 UTC], ["updated_at", 2016-06-28 02:34:43 UTC]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "users" SET "name" = ?, "location" = ?, "image_url" = ?, "url" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["name", "Kisha M Richardson"], ["location", "Brooklyn & Oakland"], ["image_url", "http://pbs.twimg.com/profile_images/494209824909840385/pVcLxiHr_normal.jpeg"], ["url", "https://twitter.com/kisharichardson"], ["updated_at", 2016-06-28 02:34:43 UTC], ["id", 3]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? AND "users"."provider" = ? LIMIT ?[0m  [["uid", "14767982"], ["provider", "twitter"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35mSQL (2.4ms)[0m  [1m[31mDELETE FROM "users"[0m
+Started GET "/" for ::1 at 2016-06-27 19:37:53 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (27.9ms)
+Completed 200 OK in 362ms (Views: 349.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 19:37:54 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (1.6ms)
+Completed 200 OK in 33ms (Views: 30.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:37:55 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:37:56 -0700
+Started GET "/auth/twitter/callback?oauth_token=eeysdwAAAAAAvw2WAAABVZTeyLQ&oauth_verifier=gG5RDQd0hUbOYKHBwPokj20zh6kZY6Ke" for ::1 at 2016-06-27 19:37:57 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"eeysdwAAAAAAvw2WAAABVZTeyLQ", "oauth_verifier"=>"gG5RDQd0hUbOYKHBwPokj20zh6kZY6Ke", "provider"=>"twitter"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? AND "users"."provider" = ? LIMIT ?[0m  [["uid", "14767982"], ["provider", "twitter"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("provider", "uid", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["provider", "twitter"], ["uid", "14767982"], ["created_at", 2016-06-28 02:37:57 UTC], ["updated_at", 2016-06-28 02:37:57 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "name" = ?, "location" = ?, "image_url" = ?, "url" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["name", "Kisha M Richardson"], ["location", "Brooklyn & Oakland"], ["image_url", "http://pbs.twimg.com/profile_images/494209824909840385/pVcLxiHr_normal.jpeg"], ["url", "https://twitter.com/kisharichardson"], ["updated_at", 2016-06-28 02:37:57 UTC], ["id", 4]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 19:37:57 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (3.6ms)
+Completed 200 OK in 36ms (Views: 32.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/signout" for ::1 at 2016-06-27 19:38:11 -0700
+  
+ActionController::RoutingError (No route matches [DELETE] "/signout"):
+  
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [4 times] (10.7ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.2ms)
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.2ms)
+Started GET "/" for ::1 at 2016-06-27 19:38:55 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (17.6ms)
+Completed 200 OK in 59ms (Views: 56.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-27 19:38:55 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 19:38:55 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 19:38:55 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-27 19:38:55 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 19:38:55 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-27 19:38:56 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-27 19:38:56 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-27 19:38:56 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 19:38:56 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-27 19:38:56 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-27 19:38:56 -0700
+Started DELETE "/sign_out" for ::1 at 2016-06-27 19:38:57 -0700
+  
+ActionController::RoutingError (No route matches [DELETE] "/sign_out"):
+  
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [4 times] (1.5ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.2ms)
+Started GET "/" for ::1 at 2016-06-27 19:40:02 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (69.4ms)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.8ms)
+
+
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from initialize at /Users/kisha/.rvm/gems/ruby-2.2.2/gems/better_errors-2.1.1/lib/better_errors/raised_exception.rb:7)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from initialize at /Users/kisha/.rvm/gems/ruby-2.2.2/gems/better_errors-2.1.1/lib/better_errors/raised_exception.rb:8)
+
+NameError - undefined local variable or method `sign_out_path' for #<#<Class:0x007ffa0e1d7bc0>:0x007ffa0c1f1838>:
+  app/views/layouts/_main_nav.html.erb:10:in `_app_views_layouts__main_nav_html_erb__1572392782086579807_70355965893740'
+  actionview (5.0.0.rc2) lib/action_view/template.rb:158:in `block in render'
+  activesupport (5.0.0.rc2) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (5.0.0.rc2) lib/action_view/template.rb:348:in `instrument'
+  actionview (5.0.0.rc2) lib/action_view/template.rb:156:in `render'
+  actionview (5.0.0.rc2) lib/action_view/renderer/partial_renderer.rb:343:in `render_partial'
+  actionview (5.0.0.rc2) lib/action_view/renderer/partial_renderer.rb:311:in `block in render'
+  actionview (5.0.0.rc2) lib/action_view/renderer/abstract_renderer.rb:42:in `block in instrument'
+  activesupport (5.0.0.rc2) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (5.0.0.rc2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  activesupport (5.0.0.rc2) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (5.0.0.rc2) lib/action_view/renderer/abstract_renderer.rb:41:in `instrument'
+  actionview (5.0.0.rc2) lib/action_view/renderer/partial_renderer.rb:310:in `render'
+  actionview (5.0.0.rc2) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (5.0.0.rc2) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3351381214184643521_70355960939200'
+  actionview (5.0.0.rc2) lib/action_view/template.rb:158:in `block in render'
+  activesupport (5.0.0.rc2) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (5.0.0.rc2) lib/action_view/template.rb:348:in `instrument'
+  actionview (5.0.0.rc2) lib/action_view/template.rb:156:in `render'
+  actionview (5.0.0.rc2) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (5.0.0.rc2) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (5.0.0.rc2) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (5.0.0.rc2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (5.0.0.rc2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (5.0.0.rc2) lib/action_view/rendering.rb:103:in `_render_template'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (5.0.0.rc2) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/renderers.rb:144:in `render_to_body'
+  actionpack (5.0.0.rc2) lib/abstract_controller/rendering.rb:26:in `render'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/rendering.rb:36:in `render'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (5.0.0.rc2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/kisha/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (5.0.0.rc2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (5.0.0.rc2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/implicit_render.rb:36:in `default_render'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+  actionpack (5.0.0.rc2) lib/abstract_controller/base.rb:188:in `process_action'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+  actionpack (5.0.0.rc2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:126:in `call'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:455:in `call'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.0.rc2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (5.0.0.rc2) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (5.0.0.rc2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  activesupport (5.0.0.rc2) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+  activerecord (5.0.0.rc2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (5.0.0.rc2) lib/abstract_controller/base.rb:126:in `process'
+  actionview (5.0.0.rc2) lib/action_view/rendering.rb:30:in `process'
+  actionpack (5.0.0.rc2) lib/action_controller/metal.rb:190:in `dispatch'
+  actionpack (5.0.0.rc2) lib/action_controller/metal.rb:262:in `dispatch'
+  actionpack (5.0.0.rc2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+  actionpack (5.0.0.rc2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+  actionpack (5.0.0.rc2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+  actionpack (5.0.0.rc2) lib/action_dispatch/journey/router.rb:26:in `serve'
+  actionpack (5.0.0.rc2) lib/action_dispatch/routing/route_set.rb:725:in `call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (2.0.0.rc1) lib/rack/etag.rb:25:in `call'
+  rack (2.0.0.rc1) lib/rack/conditional_get.rb:25:in `call'
+  rack (2.0.0.rc1) lib/rack/head.rb:12:in `call'
+  rack (2.0.0.rc1) lib/rack/session/abstract/id.rb:222:in `context'
+  rack (2.0.0.rc1) lib/rack/session/abstract/id.rb:216:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+  activerecord (5.0.0.rc2) lib/active_record/migration.rb:552:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+  rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+  rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+  activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+  rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+  railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+Started POST "/__better_errors/eb1a35714a046173/variables" for ::1 at 2016-06-27 19:40:02 -0700
+Started GET "/" for ::1 at 2016-06-27 19:40:10 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (1.3ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/signout" for ::1 at 2016-06-27 19:40:11 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gSsO0qlrB2qIoaozeym46KnajG247QKgFIIdYohbnevhrIQeXK9h5DqzoTF7NVwHGTwkhvuZdd5rotkjtCWECQ=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms)
+
+
+
+ArgumentError - wrong number of arguments (0 for 1):
+  app/controllers/sessions_controller.rb:16:in `destroy'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+  actionpack (5.0.0.rc2) lib/abstract_controller/base.rb:188:in `process_action'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+  actionpack (5.0.0.rc2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:126:in `call'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:455:in `call'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.0.rc2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (5.0.0.rc2) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (5.0.0.rc2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  activesupport (5.0.0.rc2) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (5.0.0.rc2) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+  activerecord (5.0.0.rc2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (5.0.0.rc2) lib/abstract_controller/base.rb:126:in `process'
+  actionview (5.0.0.rc2) lib/action_view/rendering.rb:30:in `process'
+  actionpack (5.0.0.rc2) lib/action_controller/metal.rb:190:in `dispatch'
+  actionpack (5.0.0.rc2) lib/action_controller/metal.rb:262:in `dispatch'
+  actionpack (5.0.0.rc2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+  actionpack (5.0.0.rc2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+  actionpack (5.0.0.rc2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+  actionpack (5.0.0.rc2) lib/action_dispatch/journey/router.rb:26:in `serve'
+  actionpack (5.0.0.rc2) lib/action_dispatch/routing/route_set.rb:725:in `call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (2.0.0.rc1) lib/rack/etag.rb:25:in `call'
+  rack (2.0.0.rc1) lib/rack/conditional_get.rb:38:in `call'
+  rack (2.0.0.rc1) lib/rack/head.rb:12:in `call'
+  rack (2.0.0.rc1) lib/rack/session/abstract/id.rb:222:in `context'
+  rack (2.0.0.rc1) lib/rack/session/abstract/id.rb:216:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+  activerecord (5.0.0.rc2) lib/active_record/migration.rb:552:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+  rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+  rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+  activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+  rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+  railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+Started POST "/__better_errors/8e378a970c697bf9/variables" for ::1 at 2016-06-27 19:40:11 -0700
+Started POST "/__better_errors/8e378a970c697bf9/eval" for ::1 at 2016-06-27 19:40:42 -0700
+  
+NoMethodError (undefined method `id' for nil:NilClass):
+  
+better_errors (2.1.1) lib/better_errors/middleware.rb:127:in `internal_call'
+better_errors (2.1.1) lib/better_errors/middleware.rb:75:in `better_errors_call'
+better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.9ms)
+Started POST "/__better_errors/8e378a970c697bf9/eval" for ::1 at 2016-06-27 19:40:46 -0700
+  
+NoMethodError (undefined method `id' for nil:NilClass):
+  
+better_errors (2.1.1) lib/better_errors/middleware.rb:127:in `internal_call'
+better_errors (2.1.1) lib/better_errors/middleware.rb:75:in `better_errors_call'
+better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.7ms)
+Started GET "/" for ::1 at 2016-06-27 19:41:33 -0700
+Started GET "/" for ::1 at 2016-06-27 19:41:33 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: #table_exists? currently checks both tables and views. This behavior is deprecated and will be changed with Rails 5.1 to only check tables. Use #data_source_exists? instead. (called from table_exists? at /Users/kisha/.rvm/gems/ruby-2.2.2/gems/activerecord-5.0.0.rc2/lib/active_record/connection_adapters/sqlite3_adapter.rb:270)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (31.2ms)
+  Rendered layouts/_main_nav.html.erb (24.8ms)
+Completed 200 OK in 451ms (Views: 436.6ms | ActiveRecord: 0.8ms)
+
+
+Completed 200 OK in 444ms (Views: 439.2ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/signout" for ::1 at 2016-06-27 19:41:36 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"QVtiiXEcmfmSaMVWEUgkt2+JGf8dIbFSDem39SwFaxch3OhFhNj/dyB6zlQRVMBY32+xFF5VxixyyXO0EHty9Q=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 19:41:36 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (1.8ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.2ms)
+
+
