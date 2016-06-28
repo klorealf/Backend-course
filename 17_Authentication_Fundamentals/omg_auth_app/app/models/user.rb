@@ -26,5 +26,6 @@ class User < ApplicationRecord
     user.url = auth_hash['info']['urls']['Twitter']
 
     user.save!
+    return user 
   end
 end

@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
 
   def destroy
     if current_user
-      session.delete[:user_id]
+      session.delete(:user_id)
       flash[:success] = "You are Logged Out!"
     end
     redirect_to root_path
