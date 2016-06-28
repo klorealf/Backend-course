@@ -11,4 +11,6 @@
 
 class NutrientGroup < ApplicationRecord
   validates :name, uniqueness: true
+  has_many :nutrients
+  has_many :foods, through: :nutrients
 end
