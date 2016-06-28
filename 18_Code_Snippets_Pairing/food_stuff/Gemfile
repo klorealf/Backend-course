@@ -16,7 +16,7 @@ gem 'annotate'
 
 group :development, :test do
   gem 'byebug', platform: :mri
-  gem 'rails-pry'
+  gem 'pry-rails'
   gem 'pry-byebug'
 end
 

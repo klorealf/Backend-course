@@ -10,4 +10,5 @@
 #
 
 class NutrientGroup < ApplicationRecord
+  validates :name, uniqueness: true
 end
