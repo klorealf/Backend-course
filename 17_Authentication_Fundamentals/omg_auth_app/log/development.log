@@ -234,3 +234,268 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-06-27 18:05:58 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_main_nav.html.erb (0.9ms)
+Completed 200 OK in 294ms (Views: 283.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-27 18:05:59 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:06:03 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:06:04 -0700
+Started GET "/auth/twitter/callback?oauth_token=-XGZygAAAAAAvw2WAAABVZSKrek&oauth_verifier=lbs7rAL5UC31F9FGbFVbqXxxRlPBolDz" for ::1 at 2016-06-27 18:06:09 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"-XGZygAAAAAAvw2WAAABVZSKrek", "oauth_verifier"=>"lbs7rAL5UC31F9FGbFVbqXxxRlPBolDz", "provider"=>"twitter"}
+DEPRECATION WARNING: `render :text` is deprecated because it does not actually render a `text/plain` response. Switch to `render plain: 'plain text'` to render as `text/plain`, `render html: '<strong>HTML</strong>'` to render as `text/html`, or `render body: 'raw'` to match the deprecated behavior and render with the default Content-Type, which is `text/plain`. (called from create at /Users/kisha/my_projects/ga/bewd_sf_13/17_Authentication_Fundamentals/omg_auth_app/app/controllers/sessions_controller.rb:3)
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=-XGZygAAAAAAvw2WAAABVZSKrek&oauth_verifier=lbs7rAL5UC31F9FGbFVbqXxxRlPBolDz" for ::1 at 2016-06-27 18:06:21 -0700
+
+OAuth::Unauthorized - 401 Authorization Required:
+  oauth (0.5.1) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.5.1) lib/oauth/tokens/request_token.rb:20:in `get_access_token'
+  omniauth-oauth (1.1.0) lib/omniauth/strategies/oauth.rb:56:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (2.0.0.rc1) lib/rack/etag.rb:25:in `call'
+  rack (2.0.0.rc1) lib/rack/conditional_get.rb:25:in `call'
+  rack (2.0.0.rc1) lib/rack/head.rb:12:in `call'
+  rack (2.0.0.rc1) lib/rack/session/abstract/id.rb:222:in `context'
+  rack (2.0.0.rc1) lib/rack/session/abstract/id.rb:216:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+  activerecord (5.0.0.rc2) lib/active_record/migration.rb:552:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+  activesupport (5.0.0.rc2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+  railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+  rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+  rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+  activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+  rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+  railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+Started POST "/__better_errors/f4233d3a868ce119/variables" for ::1 at 2016-06-27 18:06:21 -0700
+Started GET "/" for ::1 at 2016-06-27 18:17:58 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_main_nav.html.erb (1.1ms)
+Completed 200 OK in 292ms (Views: 283.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 18:31:50 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.8ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:42:54 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:42:55 -0700
+Started GET "/auth/twitter/callback?oauth_token=yoeJ5wAAAAAAvw2WAAABVZSsaq4&oauth_verifier=15XLDyKeeCcVHrFZiowN2RnZUcC6VQOk" for ::1 at 2016-06-27 18:42:56 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"yoeJ5wAAAAAAvw2WAAABVZSsaq4", "oauth_verifier"=>"15XLDyKeeCcVHrFZiowN2RnZUcC6VQOk", "provider"=>"twitter"}
+DEPRECATION WARNING: `render :text` is deprecated because it does not actually render a `text/plain` response. Switch to `render plain: 'plain text'` to render as `text/plain`, `render html: '<strong>HTML</strong>'` to render as `text/html`, or `render body: 'raw'` to match the deprecated behavior and render with the default Content-Type, which is `text/plain`. (called from create at /Users/kisha/my_projects/ga/bewd_sf_13/17_Authentication_Fundamentals/omg_auth_app/app/controllers/sessions_controller.rb:3)
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 18:43:16 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_main_nav.html.erb (0.7ms)
+Completed 200 OK in 31ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:43:35 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 18:43:36 -0700
+Started GET "/auth/twitter/callback?oauth_token=xJ6c6QAAAAAAvw2WAAABVZStCX8&oauth_verifier=SEZpNuxqHHJ0S6t8uwdVdmX25z34u4ur" for ::1 at 2016-06-27 18:46:12 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"xJ6c6QAAAAAAvw2WAAABVZStCX8", "oauth_verifier"=>"SEZpNuxqHHJ0S6t8uwdVdmX25z34u4ur", "provider"=>"twitter"}
+DEPRECATION WARNING: `render :text` is deprecated because it does not actually render a `text/plain` response. Switch to `render plain: 'plain text'` to render as `text/plain`, `render html: '<strong>HTML</strong>'` to render as `text/html`, or `render body: 'raw'` to match the deprecated behavior and render with the default Content-Type, which is `text/plain`. (called from create at /Users/kisha/my_projects/ga/bewd_sf_13/17_Authentication_Fundamentals/omg_auth_app/app/controllers/sessions_controller.rb:3)
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE  INDEX "index_users_on_provider" ON "users" ("provider")[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE  INDEX "index_users_on_provider" ON "users" ("provider")[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE  INDEX "index_users_on_provider" ON "users" ("provider")[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE  INDEX "index_users_on_provider" ON "users" ("provider")[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160628015622)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "location" varchar, "image_url" varchar, "url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160628015622"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2016-06-28 02:04:03 UTC], ["updated_at", 2016-06-28 02:04:03 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? AND "users"."provider" = ? LIMIT ?[0m  [["uid", "14767982"], ["provider", "twitter"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("provider", "uid", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["provider", "twitter"], ["uid", "14767982"], ["created_at", 2016-06-28 02:17:25 UTC], ["updated_at", 2016-06-28 02:17:25 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[31mDELETE FROM "users"[0m
+Started GET "/" for ::1 at 2016-06-27 19:23:15 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_main_nav.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 19:23:15 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_main_nav.html.erb (0.8ms)
+Completed 200 OK in 30ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-27 19:23:15 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-27 19:23:16 -0700
+Started GET "/" for ::1 at 2016-06-27 19:29:59 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (7.4ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:30:07 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:30:08 -0700
+Started GET "/auth/twitter/callback?oauth_token=bm_dvwAAAAAAvw2WAAABVZTXpNY&oauth_verifier=DnASAwbk7xY30s20luKEN6xEra7qUUu3" for ::1 at 2016-06-27 19:30:09 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"bm_dvwAAAAAAvw2WAAABVZTXpNY", "oauth_verifier"=>"DnASAwbk7xY30s20luKEN6xEra7qUUu3", "provider"=>"twitter"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? AND "users"."provider" = ? LIMIT ?[0m  [["uid", "14767982"], ["provider", "twitter"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("provider", "uid", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["provider", "twitter"], ["uid", "14767982"], ["created_at", 2016-06-28 02:30:10 UTC], ["updated_at", 2016-06-28 02:30:10 UTC]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "name" = ?, "location" = ?, "image_url" = ?, "url" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["name", "Kisha M Richardson"], ["location", "Brooklyn & Oakland"], ["image_url", "http://pbs.twimg.com/profile_images/494209824909840385/pVcLxiHr_normal.jpeg"], ["url", "https://twitter.com/kisharichardson"], ["updated_at", 2016-06-28 02:30:10 UTC], ["id", 2]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 19:30:10 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (2.0ms)
+Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:30:33 -0700
+Started GET "/auth/twitter" for ::1 at 2016-06-27 19:30:34 -0700
+Started GET "/auth/twitter/callback?oauth_token=yspIqwAAAAAAvw2WAAABVZTYC1k&oauth_verifier=XYFUeaNM60y2m8LSgfQTzgzfvVNFZAch" for ::1 at 2016-06-27 19:30:37 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"yspIqwAAAAAAvw2WAAABVZTYC1k", "oauth_verifier"=>"XYFUeaNM60y2m8LSgfQTzgzfvVNFZAch", "provider"=>"twitter"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? AND "users"."provider" = ? LIMIT ?[0m  [["uid", "14767982"], ["provider", "twitter"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 19:30:37 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (1.8ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-27 19:30:37 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-27 19:30:38 -0700
