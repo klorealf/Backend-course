@@ -1,0 +1,32 @@
+# == Schema Information
+#
+# Table name: businesses
+#
+#  id          :integer          not null, primary key
+#  name        :string
+#  city        :string
+#  postal_code :string
+#  rating      :string
+#  yelp_uid    :string
+#  category_id :integer
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  city: MyString
+  postal_code: MyString
+  rating: MyString
+  yelp_uid: MyString
+  category_id: 1
+
+two:
+  name: MyString
+  city: MyString
+  postal_code: MyString
+  rating: MyString
+  yelp_uid: MyString
+  category_id: 1

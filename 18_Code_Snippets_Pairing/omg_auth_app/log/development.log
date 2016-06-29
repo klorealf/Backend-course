@@ -997,3 +997,208 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for ::1 at 2016-06-28 19:55:29 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Started GET "/" for ::1 at 2016-06-28 19:55:30 -0700
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (11.0ms)
+Completed 200 OK in 414ms (Views: 400.5ms | ActiveRecord: 0.6ms)
+
+
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (4.1ms)
+Completed 200 OK in 41ms (Views: 38.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-28 19:55:30 -0700
+Started GET "/auth/spotify" for ::1 at 2016-06-28 19:55:33 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/auth/spotify"):
+  
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [4 times] (11.5ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.6ms)
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (114.9ms)
+Started GET "/" for ::1 at 2016-06-28 19:57:58 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (1.9ms)
+Completed 200 OK in 30ms (Views: 27.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.self-fbf3366d3612d714cd692d6680eedf5fc47eee521ea83059efcdaf9436bb9cc1.css?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/assets/application.self-afe802b04eaf1de2ea762489c83c08aa4c4ff3ff13c21566e43cb710683f5abc.js?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-28 19:57:58 -0700
+Started GET "/auth/Spotify" for ::1 at 2016-06-28 19:57:59 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/auth/Spotify"):
+  
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [4 times] (1.2ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.6ms)
+Started GET "/" for ::1 at 2016-06-28 19:58:04 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (1.7ms)
+Completed 200 OK in 30ms (Views: 26.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/auth/Spotify" for ::1 at 2016-06-28 19:59:24 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/auth/Spotify"):
+  
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.rc2) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.0.rc1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.0.rc1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.rc2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.0.rc1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [4 times] (1.3ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/kisha/.rvm/gems/ruby-2.2.2/gems/actionpack-5.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.7ms)
+Started GET "/" for ::1 at 2016-06-28 19:59:27 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (1.5ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/auth/spotify/callback" for ::1 at 2016-06-28 19:59:31 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"provider"=>"spotify"}
+Started GET "/" for ::1 at 2016-06-28 20:15:51 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (11.5ms)
+Completed 200 OK in 367ms (Views: 356.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2016-06-28 20:15:53 -0700
+Started GET "/auth/spotify" for ::1 at 2016-06-28 20:15:53 -0700
+Started GET "/auth/spotify/callback?code=AQB54HrcBL0pPE-Kvoq23mkwtvNy1jZMPs4NAe-3XYYCPsnpff_bB36BdYRmzIT0ytRbWMeKlPbREoEkqNQM9zx9lPjy3FynpgcMYO93GPA9m7GDBh8cA0cFl5PGR3k3nUzldbHdrr0y7ccpSKV_hy75beC5FVu1HAGMZTTn0duvb5e_JX2i0a2gwPLe33UrnO2WdqoriV69Rm6p_T6Z4AE&state=644c683e87bb0aaade7f033b26a6e2eb1ef8746758a435ee" for ::1 at 2016-06-28 20:15:59 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQB54HrcBL0pPE-Kvoq23mkwtvNy1jZMPs4NAe-3XYYCPsnpff_bB36BdYRmzIT0ytRbWMeKlPbREoEkqNQM9zx9lPjy3FynpgcMYO93GPA9m7GDBh8cA0cFl5PGR3k3nUzldbHdrr0y7ccpSKV_hy75beC5FVu1HAGMZTTn0duvb5e_JX2i0a2gwPLe33UrnO2WdqoriV69Rm6p_T6Z4AE", "state"=>"644c683e87bb0aaade7f033b26a6e2eb1ef8746758a435ee", "provider"=>"spotify"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? AND "users"."provider" = ? LIMIT ?[0m  [["uid", "kisha_michelle"], ["provider", "spotify"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (6.3ms)[0m  [1m[32mINSERT INTO "users" ("provider", "uid", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["provider", "spotify"], ["uid", "kisha_michelle"], ["created_at", 2016-06-29 03:16:38 UTC], ["updated_at", 2016-06-29 03:16:38 UTC]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 38645ms (ActiveRecord: 9.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-28 20:16:38 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_main_nav.html.erb (1.7ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.2ms)
+
+
